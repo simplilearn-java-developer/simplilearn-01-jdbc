@@ -66,7 +66,7 @@ public class _06_PrStUpdate {
         System.out.println("Query: " + sql);
 
         /*
-         * Insert the data into the DB table;
+         * Update the data from the DB table;
          */
         try(Connection con = DriverManager.getConnection(dbUrl, dbUsername, dbPassword);
             PreparedStatement prSt = con.prepareStatement(sql)) {
